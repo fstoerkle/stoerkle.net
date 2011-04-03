@@ -3,7 +3,7 @@
 $apps = array(
 	'/stats/'	=> 'Statistiken',
 	'/mail/'	=> 'Webmail',
-	'/thinkup/'	=> 'ThinkUp'
+	'/clients/'	=> 'Kunden'
 );
 
 ?>
