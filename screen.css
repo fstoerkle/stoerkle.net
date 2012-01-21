@@ -1,0 +1,167 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  margin: 20px 0 0 0;
+  background: #413e4a;
+  color: #f7e4be;
+  font-family: 'Gudea', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+h1,
+#page-container {
+  width: 814px;
+  margin: 0 auto;
+}
+h1 {
+  width: 774px;
+  height: 50px;
+  padding: 5px 20px;
+  background: #73626e;
+  border-radius: 7px;
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
+  color: #f0b49e;
+  line-height: 50px;
+}
+h2 {
+  margin: 0 0 10px 0;
+  color: #b38184;
+  font-weight: 700;
+}
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 210px;
+  margin: 20px 25px 0 0;
+  padding: 20px 20px;
+  border: 1px solid #73626e;
+  border-radius: 7px;
+  line-height: 21px;
+}
+section:nth-of-type(3) {
+  margin-right: 0;
+}
+section.wide {
+  width: 485px;
+}
+a {
+  color: #f7e4be;
+  text-decoration: none;
+}
+a:link {
+  border-bottom: 1px dotted #f7e4be;
+}
+a:hover {
+  border-bottom: 1px solid #f7e4be;
+}
+section p:nth-of-type(2) {
+  margin-top: 10px;
+}
+ul,
+ol {
+  line-height: 21px;
+}
+footer {
+  margin: 60px 0 0 0;
+  padding: 0 20px 0 0;
+  text-align: right;
+}
+footer a {
+  color: #73626e;
+}
+footer a:link {
+  border: none;
+}
+footer a:hover {
+  border-bottom: 1px solid #73626e;
+}
