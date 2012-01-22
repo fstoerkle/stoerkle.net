@@ -90,32 +90,33 @@ a img {
   border: none;
 }
 body {
-  margin: 20px 0 0 0;
-  background: #413e4a;
-  color: #f7e4be;
+  margin: 40px 0 0 0;
+  background: #655643;
+  color: #f6f7bd;
   font-family: 'Gudea', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
 h1,
 #page-container {
-  width: 814px;
+  width: 820px;
   margin: 0 auto;
 }
 h1 {
-  width: 774px;
+  width: 780px;
   height: 50px;
   padding: 5px 20px;
-  background: #73626e;
+  background: #bf4d28;
   border-radius: 7px;
   font-family: 'Sofia', cursive;
   font-size: 30px;
-  color: #f0b49e;
+  color: #e6ac27;
   line-height: 50px;
 }
 h2 {
   margin: 0 0 10px 0;
-  color: #b38184;
+  color: #f6f7bd;
+  border-bottom: 1px solid #f6f7bd;
   font-weight: 700;
 }
 section {
@@ -124,8 +125,6 @@ section {
   width: 210px;
   margin: 20px 25px 0 0;
   padding: 20px 20px;
-  border: 1px solid #73626e;
-  border-radius: 7px;
   line-height: 21px;
 }
 section:nth-of-type(3) {
@@ -135,14 +134,13 @@ section.wide {
   width: 485px;
 }
 a {
-  color: #f7e4be;
+  color: #f6f7bd;
   text-decoration: none;
-}
-a:link {
-  border-bottom: 1px dotted #f7e4be;
+  border-bottom: 1px dotted #e6ac27;
 }
 a:hover {
-  border-bottom: 1px solid #f7e4be;
+  color: #e6ac27;
+  border-style: solid;
 }
 section p:nth-of-type(2) {
   margin-top: 10px;
@@ -152,16 +150,15 @@ ol {
   line-height: 21px;
 }
 footer {
-  margin: 60px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0 20px 0 0;
   text-align: right;
 }
 footer a {
-  color: #73626e;
-}
-footer a:link {
-  border: none;
+  color: #f6f7bd;
+  border-bottom: 1px solid transparent;
 }
 footer a:hover {
-  border-bottom: 1px solid #73626e;
+  color: #f6f7bd;
+  border-color: #f6f7bd;
 }
