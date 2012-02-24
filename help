@@ -5,8 +5,8 @@
 <body>
 <ul>
 	<li><a href="http://stoerkle.net/mail">Webmail</a></li>
-	<li><a href="http://stoerkle.net/mail">Visitor statistics</a></li>
-	<li><a href="http://stoerkle.net/mail">Monitoring</a></li>
+	<li><a href="http://stoerkle.net/stats">Visitor statistics</a></li>
+	<li><a href="http://stoerkle.net/monitor">Monitoring</a></li>
 </ul>
 </body>
 </html>
