@@ -1,174 +1,28 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-family: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
+html {
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-size: 13px;
 }
-body {
-  line-height: 1;
-  color: #000;
-  background: #fff;
-}
-ol,
-ul {
-  list-style: none;
-}
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  vertical-align: middle;
-}
-caption,
-th,
-td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-a img {
-  border: none;
-}
-body {
-  margin: 40px 0 0 0;
-  background: #655643;
-  color: #f6f7bd;
-  font-family: 'Gudea', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-h1,
-#page-container {
-  width: 820px;
-  margin: 0 auto;
-}
-h1 {
-  width: 780px;
-  height: 50px;
-  padding: 5px 20px;
-  background: #e6ac27;
-  border-radius: 7px;
-  font-family: 'Homenaje', sans-serif;
-  font-size: 30px;
-  color: #bf4d28;
-  line-height: 50px;
-}
-h2 {
-  margin: 0 0 10px 0;
-  color: #f6f7bd;
-  border-bottom: 1px solid #f6f7bd;
-  font-weight: 700;
-}
+
 section {
-  display: inline-block;
-  vertical-align: top;
-  width: 210px;
-  margin: 20px 25px 0 0;
-  padding: 20px 20px;
-  line-height: 21px;
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
 }
-section.right {
-  margin-right: 0;
-}
+
 section.wide {
-  width: 485px;
+	width: 600px;
 }
-section p,
-section ul {
-  margin-top: 10px;
+
+section h2,
+section p {
+	padding: 3px 5px;
 }
-section p:first-of-type,
-section ul:first-of-type {
-  margin-top: 0;
+
+section h2 {
+	background: #eeeeee;
 }
-a {
-  color: #f6f7bd;
-  text-decoration: none;
-  border-bottom: 1px dotted #e6ac27;
-}
-a:hover {
-  color: #f6f7bd;
-  border-style: solid;
-}
-ul,
-ol {
-  line-height: 21px;
-}
-ul.inline li,
-ol.inline li,
-li.inline {
-  display: inline-block;
-}
-footer {
-  margin: 20px 0 0 0;
-  padding: 0 20px 0 0;
-  text-align: right;
-}
-footer a {
-  color: #f6f7bd;
-  border-bottom: 1px solid transparent;
-}
-footer a:hover {
-  color: #f6f7bd;
-  border-color: #f6f7bd;
+
+div {
+	padding: 0;
+	margin: 0;
 }
