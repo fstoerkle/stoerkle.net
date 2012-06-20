@@ -10,4 +10,5 @@ Options +MultiViews
 </FilesMatch>
 
 # Redirects
+Redirect /berge http://salon.io/fstoerkle
 Redirect /mail https://webmail.leo.uberspace.de
