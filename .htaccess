@@ -2,10 +2,10 @@
 Options +MultiViews
 
 # Protect access to administration dashboard
+AuthType        Basic
+AuthName        "Administration Dashboard"
+AuthUserFile    /home/stoerkle/html/.htpasswd
 <Files admin.html>
-    AuthType        basic
-    AuthName        "Administration Dashboard"
-    AuthUserFile    .htpasswd
     Require         valid-user
 </Location>
 
