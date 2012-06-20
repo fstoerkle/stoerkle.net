@@ -1,4 +1,13 @@
+# Makes /foo.html accessible via /foo
 Options +MultiViews
 
-# redirects
+# Protect access to administration dashboard
+<Location /admin>
+    AuthType        basic
+    AuthName        "Administration Dashboard"
+    AuthUserFile    .htpasswd
+    Require         valid-user
+</Location>
+
+# Redirects
 Redirect /mail https://webmail.leo.uberspace.de
