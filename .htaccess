@@ -4,10 +4,10 @@ Options +MultiViews
 # Protect access to administration dashboard
 AuthType        Basic
 AuthName        "Administration Dashboard"
-AuthUserFile    /home/stoerkle/html/.htpasswd
+AuthUserFile    /var/www/virtual/stoerkle/.htpasswd
 <Files admin.html>
-    Require         valid-user
-</Location>
+    Require valid-user
+</Files>
 
 # Redirects
 Redirect /mail https://webmail.leo.uberspace.de
