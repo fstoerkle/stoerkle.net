@@ -2,12 +2,12 @@
 Options +MultiViews
 
 # Protect access to administration dashboard
-AuthType        Basic
-AuthName        "Administration Dashboard"
-AuthUserFile    /var/www/virtual/stoerkle/.htpasswd
-<Files admin,admin.html>
-    Require valid-user
-</Files>
+<FilesMatch "^admin.*">
+        AuthType        Basic
+        AuthName        "Administration Dashboard"
+        AuthUserFile    /var/www/virtual/stoerkle/.htpasswd
+        Require valid-user
+</FilesMatch>
 
 # Redirects
 Redirect /mail https://webmail.leo.uberspace.de
