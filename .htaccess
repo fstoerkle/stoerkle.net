@@ -5,7 +5,7 @@ Options +MultiViews
 AuthType        Basic
 AuthName        "Administration Dashboard"
 AuthUserFile    /var/www/virtual/stoerkle/.htpasswd
-<Files admin.html>
+<Files admin,admin.html>
     Require valid-user
 </Files>
 
