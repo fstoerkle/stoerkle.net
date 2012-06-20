@@ -1,1 +1,4 @@
+Options +MultiViews
+
+# redirects
 Redirect /mail https://webmail.leo.uberspace.de
