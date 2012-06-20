@@ -2,7 +2,7 @@
 Options +MultiViews
 
 # Protect access to administration dashboard
-<Location /admin>
+<Files admin.html>
     AuthType        basic
     AuthName        "Administration Dashboard"
     AuthUserFile    .htpasswd
