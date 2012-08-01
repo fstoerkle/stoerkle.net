@@ -15,10 +15,16 @@
 <h1><%= @title %></h1>
 
 <div id="page-container">
+  <nav>
+    <%= render_navigation %>
+  </nav>
+
   <%= yield %>
   
   <footer>
+    <% unless @title == "Imprint" %>
     <a href="/imprint">Imprint</a>
+    <% end %>
   </footer>
 </div>
 
