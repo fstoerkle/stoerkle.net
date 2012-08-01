@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    fcgi (0.8.8)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -16,5 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fcgi
   shotgun
   sinatra
