@@ -1,7 +1,10 @@
 
 require "sinatra"
+require "sinatra/simple-navigation"
 
-ROUTES = %w{home u imprint projects}
+require "./routes"
+
+SimpleNavigation.config_file_path = File.dirname(__FILE__)
 
 helpers do
   def title(t=nil)
@@ -15,9 +18,8 @@ end
 
 get "/:name?" do |route|
   route ||= "home"
-  halt 404 unless ROUTES.include? route
+  halt 404 unless $ROUTES.keys.include? route.to_sym
   
-  #send_file "#{route}.html"
   erb route.to_sym
 end
 

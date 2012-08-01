@@ -9,3 +9,4 @@ group :production do
 end
 
 gem "sinatra"
+gem "sinatra-simple-navigation"
