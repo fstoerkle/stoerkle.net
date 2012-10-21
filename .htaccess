@@ -1,14 +1,5 @@
 # Makes /foo.html accessible via /foo
 Options +MultiViews
 
-# Protect access to administration dashboard
-<FilesMatch "^admin.*">
-        AuthType        Basic
-        AuthName        "Administration Dashboard"
-        AuthUserFile    /var/www/virtual/stoerkle/.htpasswd
-        Require valid-user
-</FilesMatch>
-
 # Redirects
-Redirect /berge http://salon.io/fstoerkle
 Redirect /mail https://webmail.leo.uberspace.de
