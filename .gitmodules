@@ -1,0 +1,3 @@
+[submodule "louislatein"]
+	path = louislatein
+	url = ssh://git@bitbucket.org/fstoerkle/louislatein.git
