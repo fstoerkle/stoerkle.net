@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+h1 {
+  font-family: Verdana,serif;
+  font-weight: normal;
+  font-size: 12px;
+  background: #555;
+  color: #F8F8F8;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'Arvo',serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 1px dotted #555;
+  padding-left: 10px;
+}
+
+p,ol {
+  padding-left: 10px
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.dl-horizontal dt {
+  width: 10px;
+  overflow: visible;
+  padding-left: 10px;
+}
+
+.dl-horizontal dd {
+  margin-left: 28px;
+}
+
+.contact {
+  background: #555;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.contact a {
+  color: #FFF;
+}
+
+.contact h2 {
+  border-bottom: 1px dotted #FFF;
+}
