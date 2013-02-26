@@ -1,3 +1,4 @@
 baseurl: /
 markdown: kramdown
+exclude: AminoCalc/, louislatein/, analytics/
 
