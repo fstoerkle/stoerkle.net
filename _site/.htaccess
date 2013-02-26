@@ -1,0 +1,5 @@
+# Makes /foo.html accessible via /foo
+Options +MultiViews
+
+# Redirects
+Redirect /mail https://webmail.leo.uberspace.de
