@@ -1,3 +1,4 @@
 .DS_Store
 analytics/tmp/
 config.ini.php
+_site/
