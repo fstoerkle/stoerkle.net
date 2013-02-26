@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Florian Störkle, test
+title: Florian Störkle
 ---
 
 
