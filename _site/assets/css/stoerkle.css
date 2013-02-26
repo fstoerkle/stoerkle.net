@@ -1,29 +1,57 @@
+/*
+ Credit for colors goes to:
+ CC-BY-NC-SA
+ madmod001 (http://www.colourlovers.com/lover/madmod001)
+ http://www.colourlovers.com/palette/871636/A_Dream_in_Color
+*/
+
 body {
   font-family: Verdana,Arial,Helvetica,sans-serif;
   font-size: 12px;
   line-height: 19px;
+  color: #000;
+  background: #FFF;
 }
 
 h1 {
   font-family: Verdana,serif;
   font-weight: normal;
   font-size: 12px;
-  background: #555;
-  color: #F8F8F8;
+  background: #BEF202;
   border-radius: 5px;
   padding-left: 10px;
 }
 
+a {
+  color: #519548;
+}
+
+a:hover {
+  color: #88C425;
+}
+
+h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 h1 a,
 h1 a:hover {
-  color: #F8F8F8;
+  color: #000;
+  text-decoration: none;
+}
+h1:hover a:before {
+  content: "↪ ";
+  
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Arvo',serif;
   font-weight: 400;
   font-size: 18px;
-  border-bottom: 1px dotted #555;
+  border-bottom: 1px dotted #88C425;
   padding-left: 10px;
 }
 
@@ -49,7 +77,7 @@ ul {
 }
 
 .contact {
-  background: #555;
+  background: #1B676B;
   color: #FFF;
   border-radius: 5px;
 }
