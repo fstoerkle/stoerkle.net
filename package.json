@@ -1,0 +1,7 @@
+{
+  "name": "stoerkle.net",
+  "version": "0.1.0",
+  "dependencies": {
+    "blacksmith": "~1.1.3"
+  }
+}
