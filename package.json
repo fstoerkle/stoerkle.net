@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "wintersmith": "~2.0.10",
-    "wintersmith-ejs": "^0.1.4"
+    "wintersmith-ejs": "~0.1.4"
   },
   "scripts": {
     "test": "scripts/wintersmith build"
