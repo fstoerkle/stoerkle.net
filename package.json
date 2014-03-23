@@ -2,6 +2,7 @@
   "name": "stoerkle.net",
   "version": "0.1.0",
   "dependencies": {
-    "wintersmith": "~2.0.10"
+    "wintersmith": "~2.0.10",
+    "wintersmith-ejs": "^0.1.4"
   }
 }
