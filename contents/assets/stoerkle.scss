@@ -1,0 +1,19 @@
+@import "meyer-reset";
+
+$foo: red;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 32px;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-family: "Courier New";
+  font-size: 24px;
+  font-variant: small-caps;
+}
