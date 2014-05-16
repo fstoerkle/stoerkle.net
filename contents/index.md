@@ -5,7 +5,7 @@ template: default.ejs
 
 ## About
 
-Florian is a software developer with a broad set of experiences, especially in front end web development.
+Florian is a software developer with a broad set of experiences, especially in frontend web development.
 
 He has worked with the these technologies:
 *  HTML(5), CSS, SASS
@@ -15,6 +15,7 @@ He has worked with the these technologies:
 *  Python, Django
 *  Git, Subversion, Mercurial
 
+His current residence is Munich, Germany.
 
 ## Current Occupations
 

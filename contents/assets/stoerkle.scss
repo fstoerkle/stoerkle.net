@@ -1,19 +1,71 @@
 @import "meyer-reset";
 
-$foo: red;
+$box-width: 100%;
+$factor: 1.2;
+$line-height: 100% * $factor;
+
+$padding: 20px;
+
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 2em 3em 2em;
+
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+main,
+footer {
+  min-width: 50%;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
+  padding: 36px $padding 0 $padding;
+  height: 164px;
+  width: $box-width;
+
   font-family: "Arial Black", Arial, sans-serif;
   font-size: 32px;
   letter-spacing: -3px;
+
+  color: #2F3A47;
+  background: url(/assets/mountains.jpg) right no-repeat;
 }
 
 h2 {
-  font-family: "Courier New";
+  padding: 0.2em $padding;
+  margin: 2em 0 0 0;
+
+  font-family: "Courier New", Courier, monospace;
   font-size: 24px;
   font-variant: small-caps;
+
+  color: #FFF;
+  background: #69819A;
+
+  width: $box-width;
+}
+
+p,
+ul {
+  padding: 0 0 0 $padding;
+  margin: 1.2em 0 0 0;
+  line-height: $line-height;
+
+  width: $box-width;
+}
+
+li {
+  margin: 0 0 0 ($padding * 1.5);
+
+  list-style-type: square;
+}
+
+a {
+  color: #69819A;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
