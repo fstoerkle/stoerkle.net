@@ -47,17 +47,28 @@ h2 {
   width: $box-width;
 }
 
+h3 {
+  padding: 0.2em $padding;
+  margin: 2em 0 0 0;
+
+  font-weight: bold;
+}
+
 p,
 ul {
-  padding: 0 0 0 $padding;
-  margin: 1.2em 0 0 0;
+  margin: 1.2em 0 0 $padding;
   line-height: $line-height;
 
   width: $box-width;
 }
 
+ul {
+  line-height: $line-height * 1.1;
+}
+
 li {
-  margin: 0 0 0 ($padding * 1.5);
+  margin: 0 0 0 $padding;
+  padding: 0 0 0 ($padding / 2);
 
   list-style-type: square;
 }
@@ -67,5 +78,22 @@ a {
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+i {
+  color: #2F3A47;
+}
+
+footer {
+  li {
+    list-style: none;
+
+    margin-left: 0;
+    padding-left: 0;
+
+    i {
+      margin-right: $padding / 2;
+    }
   }
 }

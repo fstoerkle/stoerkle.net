@@ -60,18 +60,36 @@ h2 {
   background: #69819A;
   width: 100%; }
 
+h3 {
+  padding: 0.2em 20px;
+  margin: 2em 0 0 0;
+  font-weight: bold; }
+
 p,
 ul {
-  padding: 0 0 0 20px;
-  margin: 1.2em 0 0 0;
+  margin: 1.2em 0 0 20px;
   line-height: 120%;
   width: 100%; }
 
+ul {
+  line-height: 132%; }
+
 li {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 10px;
   list-style-type: square; }
 
 a {
   color: #69819A; }
   a:hover {
     text-decoration: none; }
+
+i {
+  color: #2F3A47; }
+
+footer li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+  footer li i {
+    margin-right: 10px; }
