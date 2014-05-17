@@ -1,5 +1,5 @@
 ---
-title: Impressum / Legal stoerkle.net
+title: Impressum / Legal
 template: default.ejs
 ---
 
