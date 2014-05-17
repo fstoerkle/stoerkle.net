@@ -19,16 +19,19 @@ footer {
 }
 
 h1 {
-  padding: 36px $padding 0 $padding;
+  padding: 36px 0 0 0;
   height: 164px;
-  width: $box-width;
+  width: 270px;
+  margin: 0 auto;
 
   font-family: "Arial Black", Arial, sans-serif;
   font-size: 32px;
   letter-spacing: -3px;
+  text-align: center;
 
   color: #2F3A47;
-  background: url(/assets/mountains.jpg) right no-repeat;
+  background: url(/assets/mountains.jpg) no-repeat;
+  background-position: left;
 }
 
 h2 {
@@ -97,6 +100,17 @@ footer {
 }
 
 @media (min-width: 768px) {
+  h1 {
+    padding-left: $padding;
+    padding-right: $padding;
+    margin: 0;
+    width: auto;
+
+    background-position: right;
+
+    text-align: left;
+  }
+
   main, footer {
     max-width: 80%;
     margin: 0 auto;

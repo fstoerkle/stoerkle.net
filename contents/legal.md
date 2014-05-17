@@ -1,9 +1,9 @@
 ---
-title: Impressum / Legal
+title: Impressum
 template: default.ejs
 ---
 
-## Impressum / Legal
+## Impressum
 
 ### Angaben gemäß § 5 TMG:
 
