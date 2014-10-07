@@ -1,13 +1,7 @@
 # Makes /foo.html accessible via /foo
 Options +MultiViews
 
-RewriteEngine on
-RewriteCond %{HTTPS} on [OR]
-RewriteCond %{ENV:HTTPS} on
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([A-Za-z0-9-_]+\.html)$ _site/$1 [L]
-
-RewriteRule ^$ _site/index.html [L]
-
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
