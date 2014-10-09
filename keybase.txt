@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/fstoerkle
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stoerkle.net
+  * I am fstoerkle (https://keybase.io/fstoerkle) on keybase.
+  * I have a public key with fingerprint 815C 3931 2FE9 C5B2 641B  627C 9AC1 4A26 497B 5056
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "815c39312fe9c5b2641b627c9ac14a26497b5056",
+            "host": "keybase.io",
+            "key_id": "9AC14A26497B5056",
+            "uid": "ab0f8a777360d76a4730f14355375a00",
+            "username": "fstoerkle"
+        },
+        "merkle_root": {
+            "ctime": 1412859819,
+            "hash": "616e20541008b42708805de0011c60529f71c59b35327b9c0553430826bc28bbc11a3aa40a90af542fafdbb98eb596bb7fc42406e4e36c90d0c4467639fab5fc",
+            "seqno": 75831
+        },
+        "service": {
+            "hostname": "stoerkle.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412859845,
+    "expire_in": 157680000,
+    "prev": "0a7654d43d4ace054154c1a09e6fcebacd21dee9c739d24c7caaccefaa671ab9",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owFdkntQFVUcx7lIOqIkM1H2MOOuMCgy17O7Z3fvUkg8TIPRydLMUvGcs2dhEe/C
+7uUVc8Ex4yU6+SoiH4WZ4RhQqJNPklKnGMWczEnBRz4GkYeohDijtMvg9Dh/nd85
+n9/j+/v9Pgoa4RfoiNm7Z844ebDG0XwT+80TS44VMFhX8pnoAoZkaNTjtW8etJwy
+0cwymo+RSV2aHurRFepKN0OHmSgmhxqmpnssCrgkF8f4omzcdlY1Tyo1Mg3NjsW4
+WYHwMs9yKpWJgDkRsljkJCIjwkJkmbKEBSCIVsg03fT+JyszFDNFU6xXOS6BhXFD
+fPwwnz30gTBQ3UiSJF4EiiQiKPFAZSEvCLwkIABs0KTGsCTV9OrUWJZB7YKXD91S
+DF0fUk28ms2wkOXcguxmZaskZKZZXiIrUg4IkAXAjSEnAbcbCAoFgGWJCAROViWW
+CDLmBZ6TsEyAlRzywM2JmHBujAnLIh4hCJAMkCpATkWqgrHspliQRYwllUAOApFC
+yotEBgogEIqSyMsqwoJKLA0mzfLoTLQkuHnWZ5tGjkaoXbbdtmF1j8W5PNSeUaah
+e3WiZ1g/aV5vphlti/bmZ9poLsW1KcNRUrDmUayp/XusdpL/NQQKUQzNy9QMmqLZ
+hCCJbmAdOxHNsTcBSaIAFcgrEBFq90uAhEVApqJKKEZE4ViFWnsg8bLCQSIRhAih
+KkKixCIs/yOTt+pEqbYiLdWDvNmGNa8y/wkBfo5Av5FP+Nt76xc4OvjxMvvUcYNp
+c39P97XNXhv71q4PljTVhDxtXDcrHeUrira1+Rh4WH8/YeeU1mZaaD7wr87oOvXe
+rtgvC5PTNt4MxREnq7MCqt4Zv+qTp0JrKh4wfOSlq1POvjJwL2ZrbguadSjy82Ol
+xeselCU2jnQ2fxPfF7t/e1hDduGbAVH1K4QDXalri47DgZ5jexxdeR9XvTz1grfq
+7Td8q+8vCir1dLfUnS/PfXSgeM4WZ/xAQ3jSyX2d9Y7jUucF51bt3IGGO8UDxZPW
+z1+1P+KzkogT1cLZzuAL9Q9zW+KTJn31w+WwutaAb7eV7V779Qt9tQePzMUP70ZO
+7KspSuiIdFVML813bgg5datqw5mqsZPHlJZdCvv5z9s3nEe/mNzbdKV7R+NzBUeb
+GnKeuTrAt/XtWP36xfOLn5wXvHnpiBq18VPnSzNd/feSekJg6/ag72P+SDezPnx3
+5qlf+0u6wL7pBzOXXFvwXbCzPXjRzjvtY1eeVpK774V3LGzfPpFbHNB2eZTvdERc
+zInn5/9WcfhcUuWzvZtrGujd5NyeGb2jEra82DltW5tReaN4nWP9hNCmjYGvNvJL
+91aXjm79K330mNmvLaudpufFde3+Ka780e3qigUNaQMd4bWtv1y/EhXFtnCD07yJ
+fCRIbA45vfBM4tT7xWu2xGza15Te+ePgkfFjYcGtSSuNRrV/zcVNSV2zRojXzveY
+vv2H6ti/AQ==
+=ONf8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fstoerkle
+
+==================================================================
