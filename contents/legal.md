@@ -8,7 +8,7 @@ template: default.ejs
 ### Angaben gemäß § 5 TMG:
 
 Florian Störkle<br>
-Bavariastraße 9<br>
-D-80336 München
+Kapuzinerstr. 31<br>
+D-80337 München
 
-+49 (0) 176-96982495
++49 173 3296331
