@@ -5,8 +5,10 @@ template: default.ejs
 
 ## About
 
-Florian is a software developer with a broad set of experiences, especially in frontend web development.
+Florian is a software engineer.
+He is current focus is JavaScript, both in the frontend and the backend.
 
+<!--
 He has worked with the these technologies:
 *  HTML(5), CSS, SASS
 *  JavaScript, jQuery, npm
@@ -30,3 +32,4 @@ His current residence is Munich, Germany.
 *  Working student in Product Management at PAYBACK GmbH
 *  Internship in Business Management at Allianz Alternative Assets GmbH
 *  Co-founder of EventLake
+-->
