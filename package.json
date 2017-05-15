@@ -6,6 +6,6 @@
     "wintersmith-ejs": "0.1.4"
   },
   "scripts": {
-    "test": "scripts/wintersmith build"
+    "test": "wintersmith build"
   }
 }
